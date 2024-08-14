@@ -1,0 +1,10 @@
+{
+  "info": { "name": "Users database", "users": 2 },
+  "users": [
+    {
+      "name": "Bren",
+      "email": "bren@bren.com",
+      "id": "7b2f543a-3f10-408b-9b76-411a59d7edbe"
+    }
+  ]
+}

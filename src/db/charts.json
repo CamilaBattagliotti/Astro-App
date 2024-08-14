@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "Natal charts database",
+    "version": "1.0.0",
+    "charts": 1
+  },
+  "charts": [
+    {
+      "name": "Tomas",
+      "birthdate": "7-3-1980",
+      "id": "ksjkfgjsoog",
+      "time": 2123,
+      "asc": 214,
+      "sun": 347,
+      "moon": 332,
+      "mercury": 344,
+      "venus": 341,
+      "mars": 180,
+      "jupiter": 310,
+      "saturn": 7,
+      "uranus": 306,
+      "neptune": 299,
+      "pluto": 245
+    }
+  ]
+}
