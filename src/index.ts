@@ -2,6 +2,7 @@ import express, { json } from "express";
 import usersDb from "./db/users.json";
 import chartsDb from "./db/charts.json";
 import indexRouter from "./routes";
+import { errorHandler } from "./middlewares/error-handler";
 
 const PORT = 8080;
 export const app = express();
@@ -20,6 +21,8 @@ indexRouter.get("/api", (request: any, response) => {
 });
 
 app.use("/api", indexRouter);
+
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log("Running server on port:", PORT);

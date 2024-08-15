@@ -11,10 +11,6 @@ usersRouter.get("/:id", (req, res) => {
   UserController.getById(req, res);
 });
 
-usersRouter.post("/", (req, res) => {
-  UserController.create(req, res);
-});
-
 usersRouter.patch("/:id", (req, res) => {});
 usersRouter.delete("/:id", (req, res) => {});
 
